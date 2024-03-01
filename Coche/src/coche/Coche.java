@@ -57,7 +57,7 @@ public class Coche {
         if (cantidad <= 0)
             throw new Exception ("No se puede vender una cantidad negativa de coches");
         if (obtenerStock()< cantidad)
-            throw new Exception ("No se hay suficientes coches para vender");
+            throw new Exception ("No se hay suficientes coches para vender¡¡¡");
         setStock(getStock() - cantidad);
     }
 
